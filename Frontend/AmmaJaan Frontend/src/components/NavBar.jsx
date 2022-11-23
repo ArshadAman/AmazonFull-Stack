@@ -50,7 +50,7 @@ function NavBar() {
             className="bg-white py-2 w-[600px] border-0 outline-0 pl-1"
           />
           <button type="submit">
-            <i class="fas fa-search px-4 py-[11px] bg-orange-300 text-lg rounded-r"></i>
+            <i className="fas fa-search px-4 py-[11px] bg-orange-300 text-lg rounded-r"></i>
           </button>
         </div>
         <div className="last flex items-center space-x-10">
@@ -72,7 +72,7 @@ function NavBar() {
           </div>
           <div className="carts text-white flex cursor-pointer">
             <p className="">
-              <i class="fas fa-shopping-cart text-2xl mr-1"></i>
+              <i className="fas fa-shopping-cart text-2xl mr-1"></i>
             </p>
             <p>
               <span className="font-bold text-[13px]">Cart</span>
