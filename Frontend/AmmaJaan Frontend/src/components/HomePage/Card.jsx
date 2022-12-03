@@ -1,5 +1,4 @@
 import React from "react";
-
 function Card({ heading, images, desc }) {
   return (
     <div>

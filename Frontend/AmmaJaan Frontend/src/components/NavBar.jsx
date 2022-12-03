@@ -4,7 +4,7 @@ import flag from "../assets/indiaflag.png";
 
 function NavBar() {
   return (
-    <div className="navbar__main bg-[#131921]">
+    <div className="navbar__main bg-[#131921] sticky top-0 z-[1000]">
       <div className="navbar flex px-3 py-2 space-x-10 items-center">
         <a href="/">
           {" "}
@@ -79,23 +79,6 @@ function NavBar() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="categories bg-[#232f3e]">
-            <ul className="flex justify-evenly text-white h-[39px] text-sm font-semibold px-10 items-center">
-                <li className="hover:border px-1 py-[0.5px]">All</li>
-                <li className="hover:border px-1 py-[0.5px]">Fresh</li>
-                <li className="hover:border px-1 py-[0.5px]">Amazon Mini Tv</li>
-                <li className="hover:border px-1 py-[0.5px]">Amazon Pay</li>
-                <li className="hover:border px-1 py-[0.5px]">Amazon Gift Cards</li>
-                <li className="hover:border px-1 py-[0.5px]">Buy Again</li>
-                <li className="hover:border px-1 py-[0.5px]">Gift Ideas</li>
-                <li className="hover:border px-1 py-[0.5px]">Health, Household & Personal Care</li>
-                <li className="hover:border px-1 py-[0.5px]">AmazonBasics</li>
-                <li className="hover:border px-1 py-[0.5px]">Subscribe & Save</li>
-                <li className="hover:border px-1 py-[0.5px]">Baby</li>
-                <li className="hover:border px-1 py-[0.5px]">Coupons</li>
-                <li className="hover:border px-1 py-[0.5px]">Toys & Games</li>
-            </ul>
       </div>
     </div>
   );
