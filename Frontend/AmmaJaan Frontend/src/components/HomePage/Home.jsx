@@ -39,9 +39,9 @@ function Home() {
         </div>
       </div>
       <div className="productcaousel space-y-6 p-5">
-        <ProductCarousel />
-        <ProductCarousel />
-        <ProductCarousel />
+        <ProductCarousel title={"Today's Deals"} seeall={true} deal={"Deal of the Day"} />
+        <ProductCarousel title={"Deals on frequently repurchased items"} seeall={false} cato = {"laptops"} />
+        <ProductCarousel title={"Best Men Shoes"} seeall={true} cato = {"mens-shoes"} />
       </div>
       <div className="card p-5 flex justify-around">
         <Card
@@ -86,8 +86,8 @@ function Home() {
         />
       </div>
       <div className="productcaousel space-y-6 p-5">
-        <ProductCarousel />
-        <ProductCarousel />
+        <ProductCarousel title={"Best Seller Fragnances"} seeall={false} cato = {"fragrances"} />
+        <ProductCarousel title={"Your Gentle Skin"} seeall={false} cato = {"skincare"} />
       </div>
       <div className="card p-5 flex justify-around">
         <Card
@@ -132,8 +132,8 @@ function Home() {
         />
       </div>
       <div className="productcaousel space-y-6 p-5">
-        <ProductCarousel />
-        <ProductCarousel />
+        <ProductCarousel title={"Style your Shirt"} seeall={false} cato = {"mens-shirts"} />
+        <ProductCarousel title={"Top in your life"} seeall={false} cato = {"tops"} />
       </div>
       <div className="card p-5 flex justify-around">
         <Card
