@@ -6,4 +6,4 @@ AmmaJaan is going to be the full stack Amazon.in clone made React.js + Django
 
 
 
-[def]: https://youtu.be/s7aINQPGNDM
+[Link]: https://youtu.be/s7aINQPGNDM
