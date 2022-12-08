@@ -53,7 +53,7 @@ function ProductCarousel({title, seeall, deal, cato}) {
           >
             {product.slice(0, 15).map((element) => (
               <div className="product flex" key={element.id}>
-                <div className="box">
+                <div className="box cursor-pointer">
                   <div className="image">
                     <img
                       src={element.thumbnail}
