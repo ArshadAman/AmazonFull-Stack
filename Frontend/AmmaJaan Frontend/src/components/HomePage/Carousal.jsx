@@ -26,7 +26,7 @@ function Carousal() {
         showIndicators={false}
       >
         {carousel_img.map((e, i) => (
-          <div>
+          <div key={i}>
             <img src={e} alt="" key={i} />
           </div>
         ))}
